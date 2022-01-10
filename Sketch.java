@@ -19,5 +19,23 @@ public class Sketch extends PApplet {
       noStroke();
       rect(mouseX - 40, mouseY - 40, 40, 40);
     }
+    if (keyPressed) {
+
+      if (key == 'w') {
+        background(114, 199, 30);
+      }
+
+      else if (key == 'a') {
+        background(230, 185, 53);
+      }
+
+      else if (key == 's') {
+        background(224, 74, 74);
+      }
+
+      else if (key == 'd') {
+        background(242, 184, 209);
+  }
+}
   }
 }
